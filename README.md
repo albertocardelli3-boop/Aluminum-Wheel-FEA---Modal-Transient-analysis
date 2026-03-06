@@ -17,10 +17,13 @@ This project compares, through ANSYS APDL, the results obtained from different s
 
 This repository contains four ANSYS APDL scripts, each representing a different modelling approach:
 
+### 1. 2D Staticc Analysis
 This script creates a parametric 2D structural model of the wheel section and performs a static analysis under the prescribed boundary conditions and loading. It is used to evaluate displacement, stress distribution, and solution accuracy in a simplified planar representation.
 
+### 2. 3D Static Analysis
 This script generates a parametric 3D solid model of the wheel sector and performs a static structural analysis. It provides a more detailed representation of the stress and displacement fields, allowing comparison with the 2D static model.
 
+### 3. 2D Dynamic Analysis
 This script builds a parametric 2D model for modal analysis and extracts natural frequencies and deformation modes. It is used to study the dynamic behaviour of the simplified wheel representation and to evaluate the influence of modelling assumptions on resonance prediction.
 
 ### 4. 3D Dynamic Analysis
